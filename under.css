@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+#under{
+	width: 600px;
+	height: 450px;
+	margin-top: 10px;
+}
+#under-title{
+	width: 600px;
+	height: 50px;
+	/*display: flex;*/
+	background-color: #fff;
+}
+#under-title img{
+	width: 300px;
+	height: 50px;
+	display: inline;
+}
+
+#under-title span{
+	width: 100px;
+	height: 25px;
+	display: inline;
+	background-color: #fff;
+	float: right;
+	text-align: right;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background: linear-gradient(to right,#ff4e63,#ff6cc9);
+	border-radius: 20px;
+	line-height: 25px;
+	margin-top: 12.5px;
+	margin-right: 2px;
+	
+}
+#item{
+	width: 600px;
+	height: 400px;
+}
+#item1{
+	width: 600px;
+	height: 200px;
+	background-color: red;
+}
+#item1 div{
+	width: 300px;
+	height: 200px;
+}
+#item1 img{
+	width: 300px;
+	height: 200px;
+}
+#item2,#item3{
+	width: 600px;
+	height: 100px;
+}
+#item2 div,#item3 div{
+	width: 300px;
+	height: 100px;
+}
+#item2 img,#item3 img{
+	width: 300px;
+	height: 100px;
+}
+#item2{
+	background-color: green;
+}
+#item3{
+	background-color: purple;
+}

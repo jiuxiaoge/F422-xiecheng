@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+#sale-title{
+	width: 600px;
+	height: 44px;
+	background-color: #fff;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+#sale-title img{
+	display: inline;
+	height: 40px;
+	text-align: center;
+	line-height: 44px;
+	width: 300px;
+	margin-left: 10px;
+	border-top-left-radius: 20px;
+}
+#sale-title a{
+	width: 59px;
+	height: 44px;
+	align-content: center;
+	line-height: 44px;
+	display: inline;
+	float: right;
+}
+#sale-title span{
+	display: inline;
+	width: 54px;
+	height: 20px;
+	align-content: center;
+	line-height: 44px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 8px;
+	background: linear-gradient(to right,#ff4e63,#ff6cc9);
+	margin-right: 5px;
+}
+
+#sale-item-left{
+	display: inline;
+	width: 300px;
+	height: 209px;
+}
+#sale-item-left img{
+	display: block;
+	width: 300px;
+	height: 138px;
+	
+}
+#sale-item-left span{
+	display: inline;
+	position: absolute;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: white;
+	background-color: #FF0004;
+	font-size: 15px;
+}
+#sildiv{
+	width: 300px;
+	height: 138px;
+}
+#sale-item-left p{
+	
+	width: 300px;
+	height: 52px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 20px;
+	background-color: #F1F1F1;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
+#slffont{
+	padding-left: 10px;
+	width: 290px;
+	color: red;
+	background-color: #F1F1F1;
+}
+
+
+
+#sale-item-right{
+	display: block;
+	width: 300px;
+	height: 250px;
+}
+#sale-item-right-item{
+	height: 250px;
+}
+#sale-item-right-item-top{
+	display: block;
+	width: 300px;
+	height: 92px;
+	background-color: #f1f1f1;
+	border-bottom: 3px solid #ffffff;
+	
+}
+#sale-item-right-item-top a{
+	display: flex;
+	text-align: left;
+	border-right: 3px solid #ffffff;
+}
+#sale-item-right-item-top img{
+	border-left: 40px solid #f1f1f1;
+	height: 92px;
+}
+#sale-item-right-item-top dt{
+	display: block;
+	margin-left: 5px;
+}
+
+
+
+#sale-item-right-item-bottom{
+	width: 300px;
+	height: 100px;
+}
+#sirib-right dt{
+	text-align: center;
+}
+#sirib-left dt{
+	text-align: center;
+}
+#sirib-right img{
+	width: 50px;
+	height: 35px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#sirib-left img{
+	width: 50px;
+	height: 35px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+
+
+
+

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>携程本地客户端界面</title>
+<link rel="stylesheet" type="text/css" href="search.css">
+<link rel="stylesheet" type="text/css" href="slider.css">
+<link rel="stylesheet" type="text/css" href="daohang.css">
+<link rel="stylesheet" type="text/css" href="sale.css">
+<link rel="stylesheet" type="text/css" href="under.css">
+<script src="slider.js" type="text/javascript">
+</script>
+</head>
+
+<body style="background:#CDCDCD">
+	<form style="width: 550px;display: inline">
+		<img id="search_image1" src="images/th (1).jpg" align="middle">
+		<a href="search_lan.html">
+			<button type="button" id="search">搜索：目的地/景点/航班号</button>
+		</a>
+		<img id="search_image2" src="images/091335483.jpg" align="middle">
+	</form>
+	
+	<div id="container">
+        <div id="list_image" style="left: -600px">
+            <img src="images/700a0w000000k92261EA6_1242_248_25 (1).jpg" alt="1" />
+            <img src="images/700b0v000000k62iz3C9D_1242_248_25.jpg" alt="1" />
+            <img src="images/700h0w000000k6lhiAFDA_1242_248_25.jpg" alt="2" />
+            <img src="images/700s0u000000j0itk6C7A_1242_248_25.jpg" alt="3" />
+            <img src="images/700v0w000000ko0za61C0_1242_248_25.jpg" alt="4" />
+            <img src="images/700a0w000000k92261EA6_1242_248_25.jpg" alt="5" />
+            <img src="images/700a0w000000k92261EA6_1242_248_25.jpg" alt="5" />
+        </div>
+        <div id="buttons">
+            <span index="1"></span>
+            <span index="2"></span>
+            <span index="3"></span>
+            <span index="4"></span>
+            <span index="5"></span>
+        </div>
+        <h1 id="prev" class="arrow" onClick="change_prev()">&larr;</h1>
+        <h1 id="next" class="arrow" onClick="change_next()">&rarr;</h1>
+    </div>
+	
+	
+	<ul id="daohang">
+		<li style="border-top-left-radius: 20px;border-bottom-left-radius: 20px">
+			<span><img src="images/resizeApi (12).png" alt="11">景点·玩乐</span>
+		</li>
+		<li>
+			<span><img src="images/resizeApi (13).png" alt="22">周边游</span>
+		</li>
+		<li>
+			<span><img src="images/resizeApi (14).png" alt="33">美食林</span>
+		</li>
+		<li>
+			<span><img src="images/resizeApi (15).png" alt="44">一日游</span>
+		</li>
+		<li style="border-top-right-radius: 20px;border-bottom-right-radius: 20px">
+			<span><img src="images/resizeApi (16).png" alt="55">当地攻略</span>
+		</li>
+	</ul>
+	
+	<div id="nov" class="grid-nav">
+		<div id="nov1" class="grid-nav-common" style="border-top-left-radius: 20px">
+			<a href="#">酒店<img src="images/grid-nav-items-hotel.png" alt="1" style="margin-left: 25%"></a>
+		</div>
+		<div id="nov2" class="grid-nav-items">
+			<a href="#">海外酒店</a>
+			<a href="#">特价酒店</a>
+		</div>
+		<div id="nov3" class="grid-nav-items">
+			<a href="#" style="border-top-right-radius: 20px">团购</a>
+			<a href="#">民宿·客栈</a>
+		</div>
+	</div>
+	<div id="mov" class="grid-nav">
+		<div id="mov1" class="grid-nav-common">
+			<a href="#">机票<img src="images/grid-nav-items-flight.png" alt="2" style="margin-left: 25%"></a>
+		</div>
+		<div id="mov2" class="grid-nav-items">
+			<a href="#">火车票</a>
+			<a href="#">特价车票</a>
+		</div>
+		<div id="mov3" class="grid-nav-items">
+			<a href="#">汽车票·船票</a>
+			<a href="#">专车·租车</a>
+		</div>
+	</div>
+	<div id="pov" class="grid-nav">
+		<div id="pov1" class="grid-nav-common" style="border-bottom-left-radius: 20px">
+			<a href="#">旅游<img src="images/grid-nav-items-travel.png" alt="3" style="margin-left: 25%"></a>
+		</div>
+		<div id="pov2" class="grid-nav-items">
+			<a href="#">门票</a>
+			<a href="#">目的地攻略</a>
+		</div>
+		<div id="pov3" class="grid-nav-items">
+			<a href="#">邮轮旅行</a>
+			<a href="#" style="border-bottom-right-radius: 20px">定制旅行</a>
+		</div>
+	</div>
+	
+	<ul id="subnav">
+		<li style="border-top-left-radius: 20px">
+			<a>
+				<span><img src="images/resizeApi (2).png" alt="1">WIFI电话卡</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span><img src="images/resizeApi (1).png" alt="2">保险·签证</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span><img src="images/resizeApi (4).png" alt="3">外币兑换</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span><img src="images/resizeApi (5).png" alt="4">购物</span>
+			</a>
+		</li>
+		<li style="border-top-right-radius: 20px">
+			<a>
+				<span><img src="images/resizeApi (6).png" alt="5">当地向导</span>
+			</a>
+		</li>
+		<li style="border-bottom-left-radius: 20px">
+			<a>
+				<span><img src="images/resizeApi (7).png" alt="6">自由行</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span><img src="images/resizeApi (8).png" alt="7">境外玩乐</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span><img src="images/resizeApi (9).png" alt="8">礼品卡</span>
+			</a>
+		</li>
+		<li>
+			<a>
+				<span><img src="images/resizeApi (10).png" alt="9">信用卡</span>
+			</a>
+		</li>
+		<li style="border-bottom-right-radius: 20px">
+			<a>
+				<span><img src="images/resizeApi (11).png" alt="10">更多</span>
+			</a>
+		</li>
+
+	</ul>
+	
+	
+	<div id="sale">
+		<div id="sale-title">
+			<img src="images/1537082100_514453.png" alt="111">
+			
+			<a><span>更多</span></a>
+		</div>
+		
+		<div id="sale-item" style="background-color: #FFFFFF;width: 600px;height: 250px;display: flex">
+			<div id="sale-item-left">
+				<a>
+					<span>爆款</span>
+					<div id="sildiv"><img src="images/300c0h0000008rtxq3F6B_C_360_202.jpg" alt="2222"></div>
+					<p>沙巴6日4晚自由行·『APP领券更优惠 超5000人出行』9/26 9/30冰点价“国庆特价预售”初游推荐+超级自由行 市区海鲜/沙滩日落体验+电子签材料简化+赠接送机</p>
+					<div id="slffont"><b><dfn>¥</dfn>2999<i>起</i></b></div>
+				</a>
+			</div>
+			<div id="sale-item-right" style="background-color: #f1f1f1;height: 242px">
+				<div id="sale-item-right-item">
+					<div id="sale-item-right-item-top">
+						<a>
+							
+							<dl style="margin: 0;border-left: 3px solid #FFFFFF">
+								<dt style="color: red">千款特价</dt>
+								<dt>走过路过不要错过</dt>
+							</dl>
+							<img src="images/pic-tmh-02.png" alt="334344">
+						</a>
+					</div>
+					<div id="sale-item-right-item-bottom" style="display: flex;border-color: #f1f1f1;height: 209px">
+						<div id="sirib-left" style="width: 150px;border-right: 1.5px solid #fff;height: 150px;border-left: 3px solid #fff">
+							<a style="display: block">
+								<dl>
+									<dt>境外精选</dt>
+									<dt>百元出境游</dt>
+								</dl>
+								<img src="images/pic-tmh-04.png" alt="2323">
+							</a>
+						</div>
+						<div id="sirib-right" style="width: 150px;border-left: 1.5px solid #fff;height: 150px;border-right: 3px solid #fff">
+							<a style="display: block;">
+								<dl>
+									<dt>周边玩乐</dt>
+									<dt>十元度周末</dt>
+								</dl>
+								<img src="images/pic-tmh-03.png" alt="86">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="under">
+		<div id="under-title">
+			<img src="../../Pictures/1537094833_681826.png">
+			
+			<a><span>获取更多福利</span></a>
+		</div>
+		<div id="item">
+			<div id="item1" style="display: flex">
+				<div><img src="images/700e0u000000iv3896A2E_621_431_342.jpg" alt="333"></div>
+				<div><img src="images/700v0w000000kg4t68E03_621_431_342.jpg" alt="4545"></div>
+			</div>
+			
+			
+			<div id="item2" style="display: flex">
+				<div><img src="images/700n0w000000kc5u8FC2B_620_266_345.jpg" alt="3434333"></div>
+				<div><img src="images/700d0s000000htvwo16C4_620_266_345.jpg" alt="84545"></div>
+			</div>
+			
+			
+			<div id="item3" style="display: flex">
+				<div><img src="images/700a0t000000im512AB2C_620_266_345.jpg" alt="2323433"></div>
+				<div><img src="images/700d0s000000htvwo16C4_620_266_345.jpg" alt="47549"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
